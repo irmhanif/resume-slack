@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Baloo+Tamma+2:wght@400;500&family=Red+Rose:wght@700&display=swap');
+
+.resumee__datum {
+    display: flex;
+    align-items: baseline;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.resumee__header {
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+
+}
+h3 {
+  font-family: 'Red Rose', cursive;
+}
+p {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+label {
+  font-family: 'Baloo Tamma 2', cursive;
+  font-weight: 500;
+}
+.com_Head {
+    display: flex;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.com_Head hr {
+    width: 33%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.resumee__datum label {
+    flex: 0.3;
 }
 
-.App-link {
-  color: #61dafb;
+.resumee__datum p {
+    flex: 0.7;
+}
+.icons {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons svg {
+    color: #000;
+}
+
+.icons a {
+    margin: 0 14px;
 }
